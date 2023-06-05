@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fastapi-support-center-api"
+version = "0.1.0"
+description = ""
+authors = ["Frankie Rodriguez <rfrankie@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.96.0"
+uvicorn = "^0.22.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
